@@ -11,7 +11,7 @@
   <icon>appicon.png</icon>
   <fullscreen>false</fullscreen>
   <navbar-hidden>false</navbar-hidden>
-  <analytics>true</analytics>
+  <analytics>false</analytics>
   <guid>46ee97ea-53fa-43fe-9888-47e86daea053</guid>
   <property name="ti.ui.defaultunit" type="string">dip</property>
   <ios>
