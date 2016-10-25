@@ -13,6 +13,7 @@
   <navbar-hidden>false</navbar-hidden>
   <analytics>false</analytics>
   <guid>46ee97ea-53fa-43fe-9888-47e86daea053</guid>
+  <property name="run-on-main-thread" type="bool">true</property>
   <property name="ti.ui.defaultunit" type="string">dip</property>
   <ios>
     <default-background-color>#3fc3ea</default-background-color>
@@ -27,6 +28,7 @@
   </ios>
   <android xmlns:android="http://schemas.android.com/apk/res/android"></android>
   <modules>
+      <module platform="ios">com.dezinezync.storeview</module>
       <module>ti.map</module>
   </modules>
   <deployment-targets>
