@@ -16,15 +16,47 @@
   <property name="run-on-main-thread" type="bool">true</property>
   <property name="ti.ui.defaultunit" type="string">dip</property>
   <ios>
-    <default-background-color>#3fc3ea</default-background-color>
-    <enable-launch-screen-storyboard>true</enable-launch-screen-storyboard>
-    <use-app-thinning>true</use-app-thinning>
-    <plist>
-      <dict>
-        <key>UIStatusBarStyle</key>
-        <string>UIStatusBarStyleLightContent</string>
-      </dict>
-    </plist>
+      <default-background-color>#3fc3ea</default-background-color>
+      <enable-launch-screen-storyboard>true</enable-launch-screen-storyboard>
+      <use-app-thinning>true</use-app-thinning>
+      <team-id>6K4KHD4NQF</team-id>
+      <plist>
+          <dict>
+              <key>UIApplicationShortcutItems</key>
+              <array>
+                  <dict>
+                      <key>UIApplicationShortcutItemIconType</key>
+                      <string>UIApplicationShortcutIconTypeSearch</string>
+                      <key>UIApplicationShortcutItemTitle</key>
+                      <string>select_canteen</string>
+                      <key>UIApplicationShortcutItemType</key>
+                      <string>SelectCanteen</string>
+                      <key>UIApplicationShortcutItemUserInfo</key>
+                      <dict/>
+                  </dict>
+              </array>
+              <key>UIStatusBarStyle</key>
+              <string>UIStatusBarStyleLightContent</string>
+          </dict>
+      </plist>
+      <!--<extensions>
+          <extension projectPath="extensions/Mensa/Mensa.xcodeproj">
+              <target name="Mensa WatchApp Extension">
+                  <provisioning-profiles>
+                      <dist-adhoc>83b6d491-5cf4-4214-b249-0f563d920a9a</dist-adhoc>
+                      <dist-appstore>83b6d491-5cf4-4214-b249-0f563d920a9a</dist-appstore>
+                      <device>09cd86f0-18ae-4231-99f6-392eece66900</device>
+                  </provisioning-profiles>
+              </target>
+              <target name="Mensa WatchApp">
+                  <provisioning-profiles>
+                      <dist-adhoc>83b6d491-5cf4-4214-b249-0f563d920a9a</dist-adhoc>
+                      <dist-appstore>83b6d491-5cf4-4214-b249-0f563d920a9a</dist-appstore>
+                      <device>09cd86f0-18ae-4231-99f6-392eece66900</device>
+                  </provisioning-profiles>
+              </target>
+          </extension>
+      </extensions>-->
   </ios>
   <android xmlns:android="http://schemas.android.com/apk/res/android"></android>
   <modules>
